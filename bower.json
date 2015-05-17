@@ -1,0 +1,23 @@
+{
+  "name": "angular-components",
+  "main": "components.js",
+  "version": "0.1.0",
+  "authors": [
+    "njugray <njugray@gmail.com>"
+  ],
+  "description": "",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "example"
+  ],
+  "dependencies": {
+    "angular": "1.3.2"
+  }
+}
