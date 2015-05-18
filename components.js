@@ -24,6 +24,9 @@ angular.module('ny-components', [])
             $element.attr('src', src);
           };
         };
+        if(verge.inViewport($element)){
+          $scope._lazyLoad();
+        }
       }]
     };
 })
